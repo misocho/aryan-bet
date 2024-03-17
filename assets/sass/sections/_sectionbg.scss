@@ -1,0 +1,49 @@
+/********* about section **********/
+.bg-relative {
+	.shape-img-animate {
+		position: absolute;
+		width: 150px;
+	}
+	.animate-img-1 {
+		left: -30px;
+		top: 70px;
+	}
+	.animate-img-2 {
+		right: -70px;
+		top: 20%;
+	}
+	.animate-img-3 {
+		right: 0;
+		top: 0;
+	}
+}
+
+@media all and(max-width: 575px){
+	.banner-inner {
+		.animate-img-1 {
+			width: 100px;
+		}
+	}
+	.b-animate-thumb {
+		.animate-img-1 {
+			width: 100px;
+		}
+	}
+	.bg-relative {
+		.animate-img-1 {
+			width: 100px;
+		}
+		.animate-img-2 {
+			width: 100px;
+		}
+		.animate-img-3 {
+			width: 100px;
+		}
+		.animate-img-4 {
+			width: 100px;
+		}
+		.animate-img-5 {
+			width: 100px;
+		}
+	}
+}

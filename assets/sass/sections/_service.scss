@@ -1,0 +1,42 @@
+.doctor-details-info {
+	margin-top: 30px;
+	ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			margin-bottom: 12px;
+			strong {
+				color: var(--heading-color);
+				min-width: 95px;
+    			display: inline-block;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.doctor-details-btn {
+	border-bottom: 0;
+	margin-bottom: 20px;
+	li {
+		a {
+			border: 0 !important;
+			font-weight: 600;
+			height: 50px;
+			line-height: 50px;
+			padding: 0 20px;
+			&.active {
+				background-color: var(--main-color) !important;
+				border-radius: 3px !important;
+				color: #fff !important;
+			}
+		}
+	}
+}
+
+
+.service-details-inner-wrap {
+	padding: 30px 0;
+}

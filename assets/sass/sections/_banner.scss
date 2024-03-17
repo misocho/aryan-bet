@@ -1,0 +1,140 @@
+/*----------------------------------------------
+    ## Banner
+----------------------------------------------*/
+.banner-slider {
+	.owl-nav {
+		button {
+			height: 60px;
+			width: 60px;
+			position: absolute;
+			top: 50%;
+			border: 0;
+			border-radius: 50%;
+			background: var(--main-color);
+			color: #fff;
+			font-size: 30px;
+			margin-top: -43px;
+			cursor: pointer;
+			&.owl-prev {
+				transform: translate(-110px, 0%);
+				left: 0;
+			}
+			&.owl-next {
+				transform: translate(110px, 0%);
+				right: 0;
+			}
+		}
+	}
+}
+.banner-inner {
+	position: relative;
+	padding: 250px 0;
+	.sub-title {
+		position: relative;
+		display: inline-block;
+		margin-bottom: 0;
+		color: var(--main-color);
+		&.color-purple {
+			color: #BE63F9;
+			&:after {
+				background: #BE63F9;
+			}
+		}
+	}
+	.title {
+		color: #fff;
+		span {
+			color: var(--main-color);
+		}
+	}
+	p {
+		margin-top: 25px;
+		color: #fff;
+	}
+	.btn-wrap {
+		margin-top: 50px;
+	}
+	.b-animate-1 {
+    	animation: 1.5s 0.2s fadeInLeft both;
+	}
+	.b-animate-2 {
+		animation: 1.5s 0.4s fadeInLeft both;
+	}
+	.b-animate-3 {
+		animation: 1.5s 0.6s fadeInLeft both;
+	}
+	.b-animate-4 {
+		animation: 1.5s 0.8s fadeInLeft both;
+	}
+	.b-animate-5 {
+		animation: 1.5s 0.9s fadeInLeft both;
+	}
+	.animate-img-1 {
+		position: absolute;
+	    left: -74px;
+    	top: -68px;
+	}
+
+	&.style-white {
+		.title {
+			color: #fff;
+		}
+		.content {
+			color: #fff;
+		}
+	}
+}
+.banner-inner-2 {
+	padding: 270px 0 200px 0;
+}
+.b-animate-thumb {
+	animation: 1.5s 0.4s fadeInRight both;
+	position: relative;
+	.animate-img-1 {
+		position: absolute;
+	    right: 140px;
+	    bottom: -26px;
+	    z-index: -2;
+	}
+}
+.banner-search-inner {
+	position: relative;
+	i {
+		position: absolute;
+		left: 22px;
+		top: 21px;
+		color: var(--main-color);
+	}
+	input {
+		height: 60px;
+		width: 100%;
+		padding: 0 140px 0 50px;
+		border-radius: 4px;
+		border: 1px solid #F3A9A9 !important;
+		&::placeholder {
+			color: rgba(0, 33, 71, 0.2);
+		}
+	}
+	.btn {
+		position: absolute;
+		right: 6px;
+		top: 5px;
+		height: 50px;
+		padding: 0 22px;
+	}
+}
+
+.banner-area {
+	position: relative;
+	background-size: cover !important;
+	background-position: center -5px;
+	background-repeat: no-repeat;
+	.banner-bg {
+		background: linear-gradient(90deg, #0A1851 -0.7%, rgba(10, 24, 81, 0) 113.23%);
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+	}
+}
